@@ -8,6 +8,6 @@ public class HelloWorldEndpoint
 {
     @RequestMapping("/helloWorld")
     public String helloWorld() {
-        return "Hello World!";
+        return "Hello World after redeployment!";
     }
 }
